@@ -1,0 +1,611 @@
+{
+    "contracts": {
+        "c:/Users/vedant/Documents/Projects/Hackinfinity/test.sol": {
+            "Exchange": {
+                "abi": [
+                    {
+                        "inputs": [
+                            {
+                                "internalType": "address payable",
+                                "name": "recipient",
+                                "type": "address"
+                            }
+                        ],
+                        "name": "sebdEther",
+                        "outputs": [],
+                        "stateMutability": "nonpayable",
+                        "type": "function"
+                    }
+                ],
+                "devdoc": {
+                    "methods": {}
+                },
+                "evm": {
+                    "bytecode": {
+                        "linkReferences": {},
+                        "object": "608060405234801561001057600080fd5b50610165806100206000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c8063c904df6314610030575b600080fd5b6100566004803603602081101561004657600080fd5b50356001600160a01b0316610058565b005b6040516001600160a01b03821690600090670de0b6b3a76400009082818181858883f19350505050158015610091573d6000803e3d6000fd5b5060405181906001600160a01b0382169060009060649082818181858883f193505050501580156100c6573d6000803e3d6000fd5b50604051339060009060649082818181858883f193505050501580156100f0573d6000803e3d6000fd5b506040516001600160a01b03831690600090670de0b6b3a76400009082818181858883f1935050505015801561012a573d6000803e3d6000fd5b50505056fea264697066735822122044668a6a82d0f230f2f0433473d3751b7ac8a4bfa7c2ddcd795ea010eeb9dfd464736f6c63430006010033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x165 DUP1 PUSH2 0x20 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH2 0x2B JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xC904DF63 EQ PUSH2 0x30 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH2 0x56 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH2 0x46 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP CALLDATALOAD PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB AND PUSH2 0x58 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x40 MLOAD PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP3 AND SWAP1 PUSH1 0x0 SWAP1 PUSH8 0xDE0B6B3A7640000 SWAP1 DUP3 DUP2 DUP2 DUP2 DUP6 DUP9 DUP4 CALL SWAP4 POP POP POP POP ISZERO DUP1 ISZERO PUSH2 0x91 JUMPI RETURNDATASIZE PUSH1 0x0 DUP1 RETURNDATACOPY RETURNDATASIZE PUSH1 0x0 REVERT JUMPDEST POP PUSH1 0x40 MLOAD DUP2 SWAP1 PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP3 AND SWAP1 PUSH1 0x0 SWAP1 PUSH1 0x64 SWAP1 DUP3 DUP2 DUP2 DUP2 DUP6 DUP9 DUP4 CALL SWAP4 POP POP POP POP ISZERO DUP1 ISZERO PUSH2 0xC6 JUMPI RETURNDATASIZE PUSH1 0x0 DUP1 RETURNDATACOPY RETURNDATASIZE PUSH1 0x0 REVERT JUMPDEST POP PUSH1 0x40 MLOAD CALLER SWAP1 PUSH1 0x0 SWAP1 PUSH1 0x64 SWAP1 DUP3 DUP2 DUP2 DUP2 DUP6 DUP9 DUP4 CALL SWAP4 POP POP POP POP ISZERO DUP1 ISZERO PUSH2 0xF0 JUMPI RETURNDATASIZE PUSH1 0x0 DUP1 RETURNDATACOPY RETURNDATASIZE PUSH1 0x0 REVERT JUMPDEST POP PUSH1 0x40 MLOAD PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP4 AND SWAP1 PUSH1 0x0 SWAP1 PUSH8 0xDE0B6B3A7640000 SWAP1 DUP3 DUP2 DUP2 DUP2 DUP6 DUP9 DUP4 CALL SWAP4 POP POP POP POP ISZERO DUP1 ISZERO PUSH2 0x12A JUMPI RETURNDATASIZE PUSH1 0x0 DUP1 RETURNDATACOPY RETURNDATASIZE PUSH1 0x0 REVERT JUMPDEST POP POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DIFFICULTY PUSH7 0x8A6A82D0F230F2 CREATE NUMBER CALLVALUE PUSH20 0xD3751B7AC8A4BFA7C2DDCD795EA010EEB9DFD464 PUSH20 0x6F6C634300060100330000000000000000000000 ",
+                        "sourceMap": "27:318:0:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:318:0;;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "linkReferences": {},
+                        "object": "608060405234801561001057600080fd5b506004361061002b5760003560e01c8063c904df6314610030575b600080fd5b6100566004803603602081101561004657600080fd5b50356001600160a01b0316610058565b005b6040516001600160a01b03821690600090670de0b6b3a76400009082818181858883f19350505050158015610091573d6000803e3d6000fd5b5060405181906001600160a01b0382169060009060649082818181858883f193505050501580156100c6573d6000803e3d6000fd5b50604051339060009060649082818181858883f193505050501580156100f0573d6000803e3d6000fd5b506040516001600160a01b03831690600090670de0b6b3a76400009082818181858883f1935050505015801561012a573d6000803e3d6000fd5b50505056fea264697066735822122044668a6a82d0f230f2f0433473d3751b7ac8a4bfa7c2ddcd795ea010eeb9dfd464736f6c63430006010033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH2 0x2B JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xC904DF63 EQ PUSH2 0x30 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH2 0x56 PUSH1 0x4 DUP1 CALLDATASIZE SUB PUSH1 0x20 DUP2 LT ISZERO PUSH2 0x46 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP CALLDATALOAD PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB AND PUSH2 0x58 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x40 MLOAD PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP3 AND SWAP1 PUSH1 0x0 SWAP1 PUSH8 0xDE0B6B3A7640000 SWAP1 DUP3 DUP2 DUP2 DUP2 DUP6 DUP9 DUP4 CALL SWAP4 POP POP POP POP ISZERO DUP1 ISZERO PUSH2 0x91 JUMPI RETURNDATASIZE PUSH1 0x0 DUP1 RETURNDATACOPY RETURNDATASIZE PUSH1 0x0 REVERT JUMPDEST POP PUSH1 0x40 MLOAD DUP2 SWAP1 PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP3 AND SWAP1 PUSH1 0x0 SWAP1 PUSH1 0x64 SWAP1 DUP3 DUP2 DUP2 DUP2 DUP6 DUP9 DUP4 CALL SWAP4 POP POP POP POP ISZERO DUP1 ISZERO PUSH2 0xC6 JUMPI RETURNDATASIZE PUSH1 0x0 DUP1 RETURNDATACOPY RETURNDATASIZE PUSH1 0x0 REVERT JUMPDEST POP PUSH1 0x40 MLOAD CALLER SWAP1 PUSH1 0x0 SWAP1 PUSH1 0x64 SWAP1 DUP3 DUP2 DUP2 DUP2 DUP6 DUP9 DUP4 CALL SWAP4 POP POP POP POP ISZERO DUP1 ISZERO PUSH2 0xF0 JUMPI RETURNDATASIZE PUSH1 0x0 DUP1 RETURNDATACOPY RETURNDATASIZE PUSH1 0x0 REVERT JUMPDEST POP PUSH1 0x40 MLOAD PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP4 AND SWAP1 PUSH1 0x0 SWAP1 PUSH8 0xDE0B6B3A7640000 SWAP1 DUP3 DUP2 DUP2 DUP2 DUP6 DUP9 DUP4 CALL SWAP4 POP POP POP POP ISZERO DUP1 ISZERO PUSH2 0x12A JUMPI RETURNDATASIZE PUSH1 0x0 DUP1 RETURNDATACOPY RETURNDATASIZE PUSH1 0x0 REVERT JUMPDEST POP POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DIFFICULTY PUSH7 0x8A6A82D0F230F2 CREATE NUMBER CALLVALUE PUSH20 0xD3751B7AC8A4BFA7C2DDCD795EA010EEB9DFD464 PUSH20 0x6F6C634300060100330000000000000000000000 ",
+                        "sourceMap": "27:318:0:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:318:0;;;;;;;;;;;;;;;;;;;88:254;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;88:254:0;-1:-1:-1;;;;;88:254:0;;:::i;:::-;;;153:27;;-1:-1:-1;;;;;153:18:0;;;:27;;172:7;;153:27;;;;172:7;153:18;:27;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;-1:-1;246:15:0;;226:9;;-1:-1:-1;;;;;246:10:0;;;193:17;;257:3;;193:17;246:15;193:17;246:15;257:3;246:10;193:17;246:15;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;-1:-1;272:24:0;;:10;;:24;;292:3;;272:24;;;;292:3;272:10;:24;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;-1:-1;307:27:0;;-1:-1:-1;;;;;307:18:0;;;:27;;326:7;;307:27;;;;326:7;307:18;:27;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;307:27:0;88:254;;:::o"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "71400",
+                            "executionCost": "123",
+                            "totalCost": "71523"
+                        },
+                        "external": {
+                            "sebdEther(address)": "infinite"
+                        }
+                    },
+                    "methodIdentifiers": {
+                        "sebdEther(address)": "c904df63"
+                    }
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.6.1+commit.e6f7d5a4\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address payable\",\"name\":\"recipient\",\"type\":\"address\"}],\"name\":\"sebdEther\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"c:/Users/vedant/Documents/Projects/Hackinfinity/test.sol\":\"Exchange\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/vedant/Documents/Projects/Hackinfinity/test.sol\":{\"keccak256\":\"0x8fea8078781e47586e5de3fe4f4eb2aeb1671cbdbda90e257284ad6c07d1e4c8\",\"urls\":[\"bzz-raw://2ad5cd8e16970928e5c09f8db6eac74ace7d1a2932bfce4a60f5d23405f2764b\",\"dweb:/ipfs/QmbsTpAiZcXXVGy2WCR1uM8ihE89bZ6H4oJADJXq4JaFtv\"]}},\"version\":1}",
+                "userdoc": {
+                    "methods": {}
+                }
+            }
+        }
+    },
+    "sources": {
+        "c:/Users/vedant/Documents/Projects/Hackinfinity/test.sol": {
+            "ast": {
+                "absolutePath": "c:/Users/vedant/Documents/Projects/Hackinfinity/test.sol",
+                "exportedSymbols": {
+                    "Exchange": [
+                        44
+                    ]
+                },
+                "id": 45,
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            "^",
+                            "0.6",
+                            ".1"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "0:23:0"
+                    },
+                    {
+                        "abstract": false,
+                        "baseContracts": [],
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "documentation": null,
+                        "fullyImplemented": true,
+                        "id": 44,
+                        "linearizedBaseContracts": [
+                            44
+                        ],
+                        "name": "Exchange",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [
+                            {
+                                "constant": false,
+                                "id": 4,
+                                "name": "recipients",
+                                "nodeType": "VariableDeclaration",
+                                "overrides": null,
+                                "scope": 44,
+                                "src": "51:28:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_array$_t_address_payable_$dyn_storage",
+                                    "typeString": "address payable[]"
+                                },
+                                "typeName": {
+                                    "baseType": {
+                                        "id": 2,
+                                        "name": "address",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "51:15:0",
+                                        "stateMutability": "payable",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_address_payable",
+                                            "typeString": "address payable"
+                                        }
+                                    },
+                                    "id": 3,
+                                    "length": null,
+                                    "nodeType": "ArrayTypeName",
+                                    "src": "51:17:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_array$_t_address_payable_$dyn_storage_ptr",
+                                        "typeString": "address payable[]"
+                                    }
+                                },
+                                "value": null,
+                                "visibility": "internal"
+                            },
+                            {
+                                "body": {
+                                    "id": 42,
+                                    "nodeType": "Block",
+                                    "src": "142:200:0",
+                                    "statements": [
+                                        {
+                                            "expression": {
+                                                "argumentTypes": null,
+                                                "arguments": [
+                                                    {
+                                                        "argumentTypes": null,
+                                                        "hexValue": "31",
+                                                        "id": 12,
+                                                        "isConstant": false,
+                                                        "isLValue": false,
+                                                        "isPure": true,
+                                                        "kind": "number",
+                                                        "lValueRequested": false,
+                                                        "nodeType": "Literal",
+                                                        "src": "172:7:0",
+                                                        "subdenomination": "ether",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_rational_1000000000000000000_by_1",
+                                                            "typeString": "int_const 1000000000000000000"
+                                                        },
+                                                        "value": "1"
+                                                    }
+                                                ],
+                                                "expression": {
+                                                    "argumentTypes": [
+                                                        {
+                                                            "typeIdentifier": "t_rational_1000000000000000000_by_1",
+                                                            "typeString": "int_const 1000000000000000000"
+                                                        }
+                                                    ],
+                                                    "expression": {
+                                                        "argumentTypes": null,
+                                                        "id": 9,
+                                                        "name": "recipient",
+                                                        "nodeType": "Identifier",
+                                                        "overloadedDeclarations": [],
+                                                        "referencedDeclaration": 6,
+                                                        "src": "153:9:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_address_payable",
+                                                            "typeString": "address payable"
+                                                        }
+                                                    },
+                                                    "id": 11,
+                                                    "isConstant": false,
+                                                    "isLValue": false,
+                                                    "isPure": false,
+                                                    "lValueRequested": false,
+                                                    "memberName": "transfer",
+                                                    "nodeType": "MemberAccess",
+                                                    "referencedDeclaration": null,
+                                                    "src": "153:18:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_function_transfer_nonpayable$_t_uint256_$returns$__$",
+                                                        "typeString": "function (uint256)"
+                                                    }
+                                                },
+                                                "id": 13,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "kind": "functionCall",
+                                                "lValueRequested": false,
+                                                "names": [],
+                                                "nodeType": "FunctionCall",
+                                                "src": "153:27:0",
+                                                "tryCall": false,
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_tuple$__$",
+                                                    "typeString": "tuple()"
+                                                }
+                                            },
+                                            "id": 14,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "153:27:0"
+                                        },
+                                        {
+                                            "assignments": [
+                                                16
+                                            ],
+                                            "declarations": [
+                                                {
+                                                    "constant": false,
+                                                    "id": 16,
+                                                    "name": "a",
+                                                    "nodeType": "VariableDeclaration",
+                                                    "overrides": null,
+                                                    "scope": 42,
+                                                    "src": "193:17:0",
+                                                    "stateVariable": false,
+                                                    "storageLocation": "default",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_address_payable",
+                                                        "typeString": "address payable"
+                                                    },
+                                                    "typeName": {
+                                                        "id": 15,
+                                                        "name": "address",
+                                                        "nodeType": "ElementaryTypeName",
+                                                        "src": "193:15:0",
+                                                        "stateMutability": "payable",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_address_payable",
+                                                            "typeString": "address payable"
+                                                        }
+                                                    },
+                                                    "value": null,
+                                                    "visibility": "internal"
+                                                }
+                                            ],
+                                            "id": 17,
+                                            "initialValue": null,
+                                            "nodeType": "VariableDeclarationStatement",
+                                            "src": "193:17:0"
+                                        },
+                                        {
+                                            "expression": {
+                                                "argumentTypes": null,
+                                                "id": 20,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftHandSide": {
+                                                    "argumentTypes": null,
+                                                    "id": 18,
+                                                    "name": "a",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 16,
+                                                    "src": "222:1:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_address_payable",
+                                                        "typeString": "address payable"
+                                                    }
+                                                },
+                                                "nodeType": "Assignment",
+                                                "operator": "=",
+                                                "rightHandSide": {
+                                                    "argumentTypes": null,
+                                                    "id": 19,
+                                                    "name": "recipient",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 6,
+                                                    "src": "226:9:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_address_payable",
+                                                        "typeString": "address payable"
+                                                    }
+                                                },
+                                                "src": "222:13:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_address_payable",
+                                                    "typeString": "address payable"
+                                                }
+                                            },
+                                            "id": 21,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "222:13:0"
+                                        },
+                                        {
+                                            "expression": {
+                                                "argumentTypes": null,
+                                                "arguments": [
+                                                    {
+                                                        "argumentTypes": null,
+                                                        "hexValue": "313030",
+                                                        "id": 25,
+                                                        "isConstant": false,
+                                                        "isLValue": false,
+                                                        "isPure": true,
+                                                        "kind": "number",
+                                                        "lValueRequested": false,
+                                                        "nodeType": "Literal",
+                                                        "src": "257:3:0",
+                                                        "subdenomination": null,
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_rational_100_by_1",
+                                                            "typeString": "int_const 100"
+                                                        },
+                                                        "value": "100"
+                                                    }
+                                                ],
+                                                "expression": {
+                                                    "argumentTypes": [
+                                                        {
+                                                            "typeIdentifier": "t_rational_100_by_1",
+                                                            "typeString": "int_const 100"
+                                                        }
+                                                    ],
+                                                    "expression": {
+                                                        "argumentTypes": null,
+                                                        "id": 22,
+                                                        "name": "a",
+                                                        "nodeType": "Identifier",
+                                                        "overloadedDeclarations": [],
+                                                        "referencedDeclaration": 16,
+                                                        "src": "246:1:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_address_payable",
+                                                            "typeString": "address payable"
+                                                        }
+                                                    },
+                                                    "id": 24,
+                                                    "isConstant": false,
+                                                    "isLValue": false,
+                                                    "isPure": false,
+                                                    "lValueRequested": false,
+                                                    "memberName": "transfer",
+                                                    "nodeType": "MemberAccess",
+                                                    "referencedDeclaration": null,
+                                                    "src": "246:10:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_function_transfer_nonpayable$_t_uint256_$returns$__$",
+                                                        "typeString": "function (uint256)"
+                                                    }
+                                                },
+                                                "id": 26,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "kind": "functionCall",
+                                                "lValueRequested": false,
+                                                "names": [],
+                                                "nodeType": "FunctionCall",
+                                                "src": "246:15:0",
+                                                "tryCall": false,
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_tuple$__$",
+                                                    "typeString": "tuple()"
+                                                }
+                                            },
+                                            "id": 27,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "246:15:0"
+                                        },
+                                        {
+                                            "expression": {
+                                                "argumentTypes": null,
+                                                "arguments": [
+                                                    {
+                                                        "argumentTypes": null,
+                                                        "hexValue": "313030",
+                                                        "id": 33,
+                                                        "isConstant": false,
+                                                        "isLValue": false,
+                                                        "isPure": true,
+                                                        "kind": "number",
+                                                        "lValueRequested": false,
+                                                        "nodeType": "Literal",
+                                                        "src": "292:3:0",
+                                                        "subdenomination": null,
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_rational_100_by_1",
+                                                            "typeString": "int_const 100"
+                                                        },
+                                                        "value": "100"
+                                                    }
+                                                ],
+                                                "expression": {
+                                                    "argumentTypes": [
+                                                        {
+                                                            "typeIdentifier": "t_rational_100_by_1",
+                                                            "typeString": "int_const 100"
+                                                        }
+                                                    ],
+                                                    "expression": {
+                                                        "argumentTypes": null,
+                                                        "expression": {
+                                                            "argumentTypes": null,
+                                                            "id": 28,
+                                                            "name": "msg",
+                                                            "nodeType": "Identifier",
+                                                            "overloadedDeclarations": [],
+                                                            "referencedDeclaration": 59,
+                                                            "src": "272:3:0",
+                                                            "typeDescriptions": {
+                                                                "typeIdentifier": "t_magic_message",
+                                                                "typeString": "msg"
+                                                            }
+                                                        },
+                                                        "id": 31,
+                                                        "isConstant": false,
+                                                        "isLValue": false,
+                                                        "isPure": false,
+                                                        "lValueRequested": false,
+                                                        "memberName": "sender",
+                                                        "nodeType": "MemberAccess",
+                                                        "referencedDeclaration": null,
+                                                        "src": "272:10:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_address_payable",
+                                                            "typeString": "address payable"
+                                                        }
+                                                    },
+                                                    "id": 32,
+                                                    "isConstant": false,
+                                                    "isLValue": false,
+                                                    "isPure": false,
+                                                    "lValueRequested": false,
+                                                    "memberName": "transfer",
+                                                    "nodeType": "MemberAccess",
+                                                    "referencedDeclaration": null,
+                                                    "src": "272:19:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_function_transfer_nonpayable$_t_uint256_$returns$__$",
+                                                        "typeString": "function (uint256)"
+                                                    }
+                                                },
+                                                "id": 34,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "kind": "functionCall",
+                                                "lValueRequested": false,
+                                                "names": [],
+                                                "nodeType": "FunctionCall",
+                                                "src": "272:24:0",
+                                                "tryCall": false,
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_tuple$__$",
+                                                    "typeString": "tuple()"
+                                                }
+                                            },
+                                            "id": 35,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "272:24:0"
+                                        },
+                                        {
+                                            "expression": {
+                                                "argumentTypes": null,
+                                                "arguments": [
+                                                    {
+                                                        "argumentTypes": null,
+                                                        "hexValue": "31",
+                                                        "id": 39,
+                                                        "isConstant": false,
+                                                        "isLValue": false,
+                                                        "isPure": true,
+                                                        "kind": "number",
+                                                        "lValueRequested": false,
+                                                        "nodeType": "Literal",
+                                                        "src": "326:7:0",
+                                                        "subdenomination": "ether",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_rational_1000000000000000000_by_1",
+                                                            "typeString": "int_const 1000000000000000000"
+                                                        },
+                                                        "value": "1"
+                                                    }
+                                                ],
+                                                "expression": {
+                                                    "argumentTypes": [
+                                                        {
+                                                            "typeIdentifier": "t_rational_1000000000000000000_by_1",
+                                                            "typeString": "int_const 1000000000000000000"
+                                                        }
+                                                    ],
+                                                    "expression": {
+                                                        "argumentTypes": null,
+                                                        "id": 36,
+                                                        "name": "recipient",
+                                                        "nodeType": "Identifier",
+                                                        "overloadedDeclarations": [],
+                                                        "referencedDeclaration": 6,
+                                                        "src": "307:9:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_address_payable",
+                                                            "typeString": "address payable"
+                                                        }
+                                                    },
+                                                    "id": 38,
+                                                    "isConstant": false,
+                                                    "isLValue": false,
+                                                    "isPure": false,
+                                                    "lValueRequested": false,
+                                                    "memberName": "transfer",
+                                                    "nodeType": "MemberAccess",
+                                                    "referencedDeclaration": null,
+                                                    "src": "307:18:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_function_transfer_nonpayable$_t_uint256_$returns$__$",
+                                                        "typeString": "function (uint256)"
+                                                    }
+                                                },
+                                                "id": 40,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "kind": "functionCall",
+                                                "lValueRequested": false,
+                                                "names": [],
+                                                "nodeType": "FunctionCall",
+                                                "src": "307:27:0",
+                                                "tryCall": false,
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_tuple$__$",
+                                                    "typeString": "tuple()"
+                                                }
+                                            },
+                                            "id": 41,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "307:27:0"
+                                        }
+                                    ]
+                                },
+                                "documentation": null,
+                                "functionSelector": "c904df63",
+                                "id": 43,
+                                "implemented": true,
+                                "kind": "function",
+                                "modifiers": [],
+                                "name": "sebdEther",
+                                "nodeType": "FunctionDefinition",
+                                "overrides": null,
+                                "parameters": {
+                                    "id": 7,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [
+                                        {
+                                            "constant": false,
+                                            "id": 6,
+                                            "name": "recipient",
+                                            "nodeType": "VariableDeclaration",
+                                            "overrides": null,
+                                            "scope": 43,
+                                            "src": "107:25:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "default",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_address_payable",
+                                                "typeString": "address payable"
+                                            },
+                                            "typeName": {
+                                                "id": 5,
+                                                "name": "address",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "107:15:0",
+                                                "stateMutability": "payable",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_address_payable",
+                                                    "typeString": "address payable"
+                                                }
+                                            },
+                                            "value": null,
+                                            "visibility": "internal"
+                                        }
+                                    ],
+                                    "src": "106:27:0"
+                                },
+                                "returnParameters": {
+                                    "id": 8,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "142:0:0"
+                                },
+                                "scope": 44,
+                                "src": "88:254:0",
+                                "stateMutability": "nonpayable",
+                                "virtual": false,
+                                "visibility": "external"
+                            }
+                        ],
+                        "scope": 45,
+                        "src": "27:318:0"
+                    }
+                ],
+                "src": "0:345:0"
+            },
+            "id": 0
+        }
+    }
+}
