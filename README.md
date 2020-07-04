@@ -1,2 +1,2 @@
 # Voting System
- Implementing Voting System using blockchain
+ Implementing Voting System using Ethereum
