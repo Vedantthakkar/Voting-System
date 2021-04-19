@@ -1,6 +1,6 @@
 Flask==1.1.1
 requests==2.22.0
 simplejson==3.17.0
-vyper==0.1.0b16
+vyper==0.2.11
 web3==5.5.0
 
